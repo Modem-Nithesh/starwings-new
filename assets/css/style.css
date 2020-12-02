@@ -629,9 +629,9 @@ section {
   overflow: hidden;
 }
 
-.section-bg {
-  /*background-color: #f7fcfc;*/
-}
+/* .section-bg {
+  background-color: #f7fcfc;
+} */
 
 .section-title {
   text-align: center;

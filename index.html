@@ -373,7 +373,7 @@
           <h2>Book an Appointment</h2>
         </div>
 
-        <form action="POST"  data-netlify='true' method="post" role="form" class="php-email-form" data-aos="fade-up" data-aos-delay="100">
+        <form action="POST"  data-netlify='true' class="php-email-form" >
           <!-- <div class="form-row"> -->
             <div class=" form-group">
               <input type="text" name="firstname" class="form-control" id="name" placeholder="Your First Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars">
@@ -405,12 +405,11 @@
               <!-- <div class="validate"></div> -->
             </div>
           <!-- </div> -->
-          
-          <div class="mb-3">
-            <div class="loading">Loading</div>
-            <div class="error-message"></div>
-            <div class="sent-message">Your appointment request has been sent successfully. Thank you!</div>
-          </div>
+
+          <div class="field">
+            <div data-netlify-recaptcha="true"></div>
+          </div>         
+        
           <div class="text-center"><button type="submit">Make an Appointment</button></div>
         </form>
 
