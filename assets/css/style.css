@@ -1202,13 +1202,14 @@ Specialities
   }
 }
 
----------------------------------------------------------
+/* ---------------------------------------------------------
 # Appointments
---------------------------------------------------------------*/
-.appointment .php-email-form {
+--------------------------------------------------------------*/ 
+
+/* .appointment .php-email-form {
   /*width: 386px;*/
   /*margin: auto;  */
-}
+/* } */ 
 
 .appointment .php-email-form .form-group {
   /*width: 386px;*/
@@ -1606,7 +1607,7 @@ Specialities
   background: #65c9cd;
 }
 
-//*--------------------------------------------------------------
+/*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/
 #footer {
@@ -1617,7 +1618,7 @@ Specialities
 
 }
 
-#footer .footer-top h3::after{
+/* #footer .footer-top h3::after{
     /*content: "";
     width: 70px;
     height: 4px;
@@ -1625,7 +1626,7 @@ Specialities
     bottom: 0;
     left: 0;
     position: absolute;*/
-}
+/* } */ 
 
 #footer .footer-top {
   background-color: #1f1f1f;
